@@ -30,3 +30,29 @@ public class DriverClass {
         System.out.println("depth of 10:"+ bst.getDepth(new BstNode(10)));
     }
 }
+/*
+In Order Traversal
+1
+3
+4
+6
+7
+8
+10
+13
+14
+
+==== BST Print ===== 
+
+\-- 8
+    |-- 3
+    |   |-- 1
+    |   \-- 6
+    |       |-- 4
+    |       \-- 7
+    \-- 10
+        \-- 14
+            |-- 13
+height:3
+depth of 10:1
+*/
