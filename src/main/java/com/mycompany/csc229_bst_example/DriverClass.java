@@ -26,5 +26,7 @@ public class DriverClass {
         bst.inOrderTraversal();
         
         bst.print();
+        System.out.println("height:"+ bst.findHeight());
+        System.out.println("depth of 10:"+ bst.getDepth(new BstNode(10)));
     }
 }
